@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "evcc Trial Token Updater",
+        "description": "Automatically updates the official evcc trial token.",
+        "data": {
+          "evcc_url": "evcc URL",
+          "api_key": "evcc API key",
+          "interval_hours": "Background check interval (hours)",
+          "update_time": "Scheduled update time (24-hour format)",
+          "enabled": "Updater enabled",
+          "auto_restart": "Restart evcc after a successful update",
+          "skip_while_charging": "Do not update while the car is charging"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Invalid evcc URL.",
+      "invalid_time": "Use HH:MM, for example 02:00."
+    }
+  },
+  "entity": {
+    "button": {
+      "send_new_token_now": {
+        "name": "Send New Token Now"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "domain": "evcc_trial_token_updater",
+  "name": "evcc Trial Token Updater",
+  "version": "1.0.0",
+  "documentation": "https://docs.evcc.io/en/sponsorship/",
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "requirements": [],
+  "integration_type": "service"
+}

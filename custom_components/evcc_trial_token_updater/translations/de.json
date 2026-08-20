@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "evcc Trial Token Updater",
+        "description": "Automatisiert den offiziellen evcc Testtoken.",
+        "data": {
+          "evcc_url": "evcc URL",
+          "api_key": "evcc API-Key",
+          "interval_hours": "Prüfintervall in Stunden",
+          "restart_after_update": "evcc nach Token-Update neu starten"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Ungültige evcc-URL."
+    }
+  }
+}
