@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="README-logo.png" alt="evcc Trial Token Updater" width="280">
+![evcc Trial Token Updater](https://github.com/Titanius/evcc-trial-token-updater/raw/main/README-logo.png)
 
 **Automatic renewal of the official evcc trial token for Home Assistant.**
 
